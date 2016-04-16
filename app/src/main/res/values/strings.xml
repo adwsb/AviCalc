@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AviCalc</string>
+    <string-array name="menu">
+        <item>Crosswind</item>
+        <item>Descend by Distance</item>
+        <item>Lead Turns</item>
+        <item>Timing Correction</item>
+        <item>VDP</item>
+    </string-array>
+</resources>
