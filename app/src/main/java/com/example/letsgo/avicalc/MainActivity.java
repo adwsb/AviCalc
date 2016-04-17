@@ -10,7 +10,7 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity {
 
     ListView lv;
-    Intent i1,i2,i3,i4,i5;
+    Intent i1,i2,i3,i4,i5,i6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         i1=new Intent(this,Crosswind.class);
         i2=new Intent(this,DescendByDistance.class);
+        i3=new Intent(this,Drift.class);
 
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -29,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
                    case 0: startActivity(i1);
                        break;
                    case 1: startActivity(i2);
+                       break;
+                   case 2:  startActivity(i3);
                }
             }
         });
