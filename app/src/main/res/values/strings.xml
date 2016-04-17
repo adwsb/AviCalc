@@ -4,8 +4,8 @@
         <item>Crosswind</item>
         <item>Descend by Distance</item>
         <item>Drift</item>
-        <item>Lead Turns</item>
+        <!--<item>Lead Turns</item>
         <item>Timing Correction</item>
-        <item>VDP</item>
+        <item>VDP</item>-->
     </string-array>
 </resources>
