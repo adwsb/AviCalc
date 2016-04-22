@@ -54,6 +54,7 @@ public class DescendByDistance extends Activity {
                 vgs = Double.parseDouble(gs.getText().toString());
 
                 if (vsa > 0 && vea > 0 && vdist > 0 && vgs > 0) {
+                    //to be corrected
                     da.setText(df.format((vsa - vea)/vdist/100));
                     dr.setText(df2.format(vgs/60*(vsa - vea)/vdist*100));
 
